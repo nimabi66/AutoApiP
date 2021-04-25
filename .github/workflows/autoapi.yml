@@ -9,6 +9,7 @@ on:
     - 'v*'
   #  branches: 
   #    - master
+  workflow_dispatch:
   schedule:
     - cron: '30 */8 * * *'
   watch:
